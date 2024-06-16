@@ -18,10 +18,9 @@
 - `pip`
 
 ## Instrukcja użycia
-1. Skopiuj zawartość powyższych plików do odpowiednich plików w swoim systemie.
-2. Utwórz plik `requirements.txt` (jeśli wymagane są dodatkowe zależności, na przykład `unittest` jest wbudowany w Pythona, więc nie trzeba go dodawać).
+1. Upewnij się, że masz zainstalowany Python 3.x oraz `pip`.
+2. Pobierz pliki: `app.py`, `Makefile`, `requirements.txt`.
 3. W katalogu projektu uruchom następujące polecenia, aby sprawdzić, czy Makefile działa poprawnie:
-
 ```bash
 ## Instalacja zależności
 make install
