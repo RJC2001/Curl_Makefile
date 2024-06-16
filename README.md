@@ -20,7 +20,7 @@
 ## Instrukcja użycia
 1. Upewnij się, że masz zainstalowany Python 3.x oraz `pip`.
 2. Pobierz pliki: `app.py`, `test_app.py`, `Makefile`, `requirements.txt`.
-3. W katalogu projektu uruchom następujące polecenia:
+3. W katalogu projektu uruchom `Git Bash` i wprowadź następujące polecenia:
 ```bash
 ## Instalacja zależności
 make install
