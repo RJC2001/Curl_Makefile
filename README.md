@@ -1,7 +1,4 @@
-# API Test Script
-
-## Opis
-Skrypt `api_test.py` automatyzuje testowanie różnych endpointów API przy użyciu narzędzia `curl`. Skrypt wysyła żądania HTTP do publicznego API JSONPlaceholder i sprawdza, czy odpowiedzi są poprawne (statusy HTTP i kluczowe elementy w odpowiedziach JSON np. userId).
+# 1.Kroki do uruchomienia projektu
 
 ## Wymagania
 - Python 3.x
@@ -14,12 +11,16 @@ Skrypt `api_test.py` automatyzuje testowanie różnych endpointów API przy uży
    ```bash
    python api_test.py
 
-# Kroki do uruchomienia projektu:
+# 2.Kroki do uruchomienia projektu:
 
-1. Upewnij się, że masz zainstalowany Python i `pip`.
-2. Skopiuj zawartość powyższych plików do odpowiednich plików w swoim systemie.
-3. Utwórz plik `requirements.txt` (jeśli wymagane są dodatkowe zależności, na przykład `unittest` jest wbudowany w Pythona, więc nie trzeba go dodawać).
-4. W katalogu projektu uruchom następujące polecenia, aby sprawdzić, czy Makefile działa poprawnie:
+## Wymagania
+- Python 3.x
+- `pip`
+
+## Instrukcja użycia
+1. Skopiuj zawartość powyższych plików do odpowiednich plików w swoim systemie.
+2. Utwórz plik `requirements.txt` (jeśli wymagane są dodatkowe zależności, na przykład `unittest` jest wbudowany w Pythona, więc nie trzeba go dodawać).
+3. W katalogu projektu uruchom następujące polecenia, aby sprawdzić, czy Makefile działa poprawnie:
 
 ```bash
 ## Instalacja zależności
