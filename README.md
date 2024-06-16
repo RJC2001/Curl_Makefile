@@ -22,11 +22,11 @@
 2. Pobierz pliki: `app.py`, `test_app.py`, `Makefile`, `requirements.txt`.
 3. W katalogu projektu uruchom `Git Bash` i wprowadź następujące polecenia:
 ```bash
-## Instalacja zależności
+# Instalacja zależności
 make install
 
-## Uruchamianie testów
+# Uruchamianie testów
 make test
 
-## Uruchamianie aplikacji
+# Uruchamianie aplikacji
 make run
