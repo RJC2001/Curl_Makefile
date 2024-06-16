@@ -13,3 +13,20 @@ Skrypt `api_test.py` automatyzuje testowanie różnych endpointów API przy uży
 3. Uruchom skrypt:
    ```bash
    python api_test.py
+
+### Kroki do uruchomienia projektu:
+
+1. Upewnij się, że masz zainstalowany Python i `pip`.
+2. Skopiuj zawartość powyższych plików do odpowiednich plików w swoim systemie.
+3. Utwórz plik `requirements.txt` (jeśli wymagane są dodatkowe zależności, na przykład `unittest` jest wbudowany w Pythona, więc nie trzeba go dodawać).
+4. W katalogu projektu uruchom następujące polecenia, aby sprawdzić, czy Makefile działa poprawnie:
+
+```bash
+# Instalacja zależności
+make install
+
+# Uruchamianie testów
+make test
+
+# Uruchamianie aplikacji
+make run
